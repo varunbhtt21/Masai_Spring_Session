@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ManyToMany/BookManagement.iml" filepath="$PROJECT_DIR$/ManyToMany/BookManagement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ManyToMany.iml" filepath="$PROJECT_DIR$/.idea/ManyToMany.iml" />
+    </modules>
+  </component>
+</project>
