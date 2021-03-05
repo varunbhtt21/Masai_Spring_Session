@@ -1,38 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="477565d1-8578-481b-8b39-51f5fe0c6168" name="Default Changelist" comment="" />
+    <list default="true" id="9740308c-fc48-439a-8e02-b2b944b2f8f7" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectId" id="1p91jKYAl3P8GRi3ZbWahzNyaUH" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ounXc4UXTp96EW3UXSW60IxqXx" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="h2.unified" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/OneToOne" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+      <command value="mvn -D skip test" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="BookManagement" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.masai.books.BookManagement.BookManagementApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="477565d1-8578-481b-8b39-51f5fe0c6168" name="Default Changelist" comment="" />
-      <created>1614580626164</created>
+      <changelist id="9740308c-fc48-439a-8e02-b2b944b2f8f7" name="Default Changelist" comment="" />
+      <created>1614145400144</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1614580626164</updated>
-      <workItem from="1614580627292" duration="103000" />
-      <workItem from="1614750781484" duration="42000" />
-      <workItem from="1614825601827" duration="22000" />
+      <updated>1614145400144</updated>
+      <workItem from="1614145408503" duration="13971000" />
+      <workItem from="1614169228688" duration="12324000" />
+      <workItem from="1614235827314" duration="615000" />
+      <workItem from="1614344493571" duration="357000" />
+      <workItem from="1614577887626" duration="2640000" />
+      <workItem from="1614580816555" duration="46000" />
+      <workItem from="1614580889696" duration="11230000" />
+      <workItem from="1614607499411" duration="4460000" />
+      <workItem from="1614667420100" duration="617000" />
+      <workItem from="1614750562557" duration="198000" />
+      <workItem from="1614771932621" duration="1261000" />
+      <workItem from="1614786049123" duration="2386000" />
+      <workItem from="1614825491401" duration="385000" />
+      <workItem from="1614859494502" duration="9579000" />
+      <workItem from="1614915139109" duration="284000" />
+      <workItem from="1614915972967" duration="181000" />
     </task>
     <servers />
   </component>

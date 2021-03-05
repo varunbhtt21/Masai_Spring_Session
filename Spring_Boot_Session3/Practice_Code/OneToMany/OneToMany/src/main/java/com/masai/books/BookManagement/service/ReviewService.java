@@ -61,12 +61,7 @@ public class ReviewService {
     }
 
 
-    @Transactional
-    public void getReviews() {
-        Course course = courseRepository.findById(103L).get();
-        log.info("course.getReviews() --> {}",course.getReviewList());
 
-    }
 
 
 }

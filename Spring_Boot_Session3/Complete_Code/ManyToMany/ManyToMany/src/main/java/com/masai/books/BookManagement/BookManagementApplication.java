@@ -10,7 +10,7 @@ import org.springframework.http.client.support.BasicAuthenticationInterceptor;
 import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
-public class BookManagementApplication {
+public class BookManagementApplication implements CommandLineRunner {
 
 	@Autowired
 	StudentService studentService;
@@ -20,4 +20,8 @@ public class BookManagementApplication {
 	}
 
 
+	@Override
+	public void run(String... args) throws Exception {
+		studentService.insertCourses();
+	}
 }

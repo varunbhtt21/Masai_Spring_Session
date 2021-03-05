@@ -70,5 +70,26 @@ public class StudentService {
         return student;
     }
 
+    @Transactional
+    public void getCourses() {
+        Student student = studentRepository.findById(234L).get();
+        log.info("student.getCourses() --> {}",student.getCourses().get(0).getCourseName());
+    }
 
+    public void insertCourses() {
+        Student student = new Student(800L, "Mohan");
+        Courses courses = new Courses(900L, "gogi");
+
+        // Saving entry
+        studentRepository.save(student);
+        courseRepository.save(courses);
+
+        // Adding to each other list
+        student.addCourse(courses);
+        courses.addStudent(student);
+
+        // Saving to repo
+        studentRepository.save(student);
+
+    }
 }

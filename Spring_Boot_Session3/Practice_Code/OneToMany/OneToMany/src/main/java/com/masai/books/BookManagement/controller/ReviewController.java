@@ -20,11 +20,6 @@ public class ReviewController {
         List<Review> bookInfo = reviewsService.getAllReviews();
         return bookInfo;
     }
-//    @GetMapping("/rev")
-//    public List<Review> getReviews(){
-//        return reviewsService.getReviews();
-//
-//    }
 
 
     @PostMapping("/review")
@@ -47,12 +42,6 @@ public class ReviewController {
         else return "Fail to Delete";
     }
 
-
-//    @PostMapping("/review/{id}/passport")
-//    public Review addPassport(@RequestBody Passport passport, @PathVariable("id") Long reviewId){
-//        Review review = reviewsService.addPassport(passport, reviewId);
-//        return review;
-//    }
 
 
 }
