@@ -1,4 +1,6 @@
 
+Session_3 :Spring_Relational_Table
+
    Instruction : 
 
 	1.There are Two Directories:
@@ -10,3 +12,9 @@
 	   a. Entities are removed
 	   b. Command Line Runner Removed
 
+
+Session_4 :Spring_Relational_Table
+
+	   1.There are Two Directories:
+	   a. Course
+	   b. Students

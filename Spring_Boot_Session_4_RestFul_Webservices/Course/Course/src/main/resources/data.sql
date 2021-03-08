@@ -1,0 +1,11 @@
+
+
+
+
+INSERT INTO COURSE(id, C_NAME)
+VALUES('501', 'Spring');
+
+INSERT INTO COURSE(id, C_NAME)
+VALUES('502', 'React');
+
+
